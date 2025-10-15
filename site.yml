@@ -17,7 +17,7 @@
         upgrade: dist
         update_cache: yes
       when: ansible_distribution == "Ubuntu"
-- hosts: workstations
+- hosts: workstation
   become: true
   tasks:
 
